@@ -1,0 +1,33 @@
+
+.alert {
+    width:90%;
+    height: 4rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-radius: 4px;
+    margin: 0.5rem;
+    box-shadow: 2px 1px 2px 1px rgb(0 0 0 / 5%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:var(--white-clr) ;
+}
+.alert-primary {
+    background-color: var(--prime-blue);
+}
+.alert-secondary {
+    background-color: var(--secondary-pink);
+}
+.alert-info {
+    background-color: var(--info-clr);
+}
+.alert-warning {
+    background-color: var(--warning-clr);
+}
+.alert-danger {
+    background-color: var(--danger-clr);
+}
+.alert-success {
+    background-color: var(--success-clr);
+}
