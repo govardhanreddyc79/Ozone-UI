@@ -1,0 +1,55 @@
+@import url('../CSS/reset.css');
+@import url('../CSS/variable.css');
+@import url('../CSS/nav.css');
+@import url('../CSS/utility.css');
+
+.element-display {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    gap:15px;
+    margin-top: 1rem;
+    border: 2px solid var(--secondary-color)
+}
+
+.color {
+    font-size: 1.3rem;
+    padding: 2rem;
+    margin: 0.5rem;
+    color: var(--white-clr);
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 6rem;
+}
+.primary {
+    background-color: var(--primary-color);
+}
+.secondary {
+    background-color: var(--secondary-color);
+}
+.success {
+    background-color: var(--success-clr);
+}
+.warning {
+    background-color: var(--warning-clr);
+}
+.danger {
+    background-color: var(--danger-clr);
+}
+.info {
+    background-color: var(--info-clr);
+}
+.underlined {
+    background-color: var(--secondary-pink);
+}
+
+
+
+
