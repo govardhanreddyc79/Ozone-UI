@@ -1,0 +1,32 @@
+
+.element-display {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 10px;
+    gap:15px;
+    margin-top: 1rem;
+}
+.avtar-rd {
+    border-radius: 50%;
+}
+
+.avtar-sq {
+    border-radius: 10%;
+}
+
+.av-xs {
+    height: 5rem;
+}
+.av-s {
+    height: 8rem;
+}
+.av-m {
+    height: 10rem;
+}
+.av-l {
+    height: 12rem;
+}
