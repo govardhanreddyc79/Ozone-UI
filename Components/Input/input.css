@@ -1,0 +1,31 @@
+.element-display{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    gap:15px;
+    margin-top: 1rem;
+}
+
+.input-box {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;  
+}
+
+.success {
+    border: 2px solid var(--success-clr);
+    color: var(--success-clr);
+    
+}
+.warning {
+    border: 2px solid var(--warning-clr);
+    color: var(--warning-clr);
+  
+}
+.error {
+    border: 2px solid var(--danger-clr);
+    color: var(--danger-clr);
+   
+}
