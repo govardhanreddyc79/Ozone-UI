@@ -1,0 +1,44 @@
+
+.fs-6 {
+    font-size: 3rem;
+}
+.fs-5 {
+    font-size: 2.5rem;
+}
+.fs-4 {
+    font-size: 2rem;
+}
+.fs-3 {
+    font-size: 1.5rem;
+}
+.fs-2 {
+    font-size: 1rem;
+}
+.fs-1 {
+    font-size: 0.5rem;
+}
+.txt-primary {
+    color: var(--primary-color);
+}
+.txt-secondary {
+    color: var(--secondary-color);
+}
+.txt-success {
+    color: var(--success-clr);
+}
+.txt-warning {
+    color: var(--warning-clr);
+}
+.txt-error {
+    color: var(--danger-clr);
+}
+.txt-underline {
+    color: var(--secondary-pink);
+    text-decoration: underline;
+}
+.no-margin {
+    margin: 0;
+}
+.margin-top {
+    margin-top: 2rem;
+}
