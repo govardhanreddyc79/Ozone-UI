@@ -1,0 +1,26 @@
+.element-display{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    gap:15px;
+    margin-top: 1rem;
+    width:100%
+}
+li {
+    list-style: none;
+}
+.list {
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    min-width: 200px;
+    
+}
+.list-item {
+    font-size: large;
+}
+.heading {
+    font-weight: bold;
+    font-size: larger;
+}
