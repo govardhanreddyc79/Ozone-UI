@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toasts</title>
+    <link rel="stylesheet" href="../../Docs/doc.css">
+    <link rel="stylesheet" href="toast.css">
+</head>
+<body>
+    <nav class='nav'>
+        <div >
+            <a class="nav-header" href="">Ozone UI</a>
+        </div>
+        <div class="nav-links">
+            <a class='nav-item' href="https://twitter.com/reddygov16" target="_blank">
+                <img class="logo" src="../../Assets/SVG/twitter.png" alt="twitter">
+            </a>
+            <a class='nav-item' href="https://github.com/govardhanreddyc79" target="_blank">
+                <img class='logo' src="../../Assets/SVG/github.png" alt="github">
+            </a>
+        </div>
+    </nav>
+    <main class="main-section">
+        <aside class="sidebar flex-column">
+            <a class ='sidebar-header' href="">Getting Started</a>
+            <a class ='sidebar-item hover-effect' href="">Installation Guide</a>
+    
+            <a class ='sidebar-header' href="">Components</a>
+            <a class ='sidebar-item hover-effect' href="">Alert</a>
+            <a class ='sidebar-item hover-effect' href="">Avtar</a>
+            <a class ='sidebar-item hover-effect' href="">Badge</a>
+            <a class ='sidebar-item hover-effect' href="">Button</a>
+            <a class ='sidebar-item hover-effect' href="">Card</a>
+            <a class ='sidebar-item hover-effect' href="">Image</a>
+            <a class ='sidebar-item hover-effect' href="">Input</a>
+            <a class ='sidebar-item hover-effect' href="">Lists</a>
+            <a class ='sidebar-item hover-effect' href="">Text Utilities</a>
+            <a class ='sidebar-item link-active hover-effect' href="">Toasts</a>
+    
+        </aside>
+
+        <div class="main-content">
+            <h1 class="section-header">Toasts</h1>
+            <p>Toasts are popups with certain information like connectivity status or for a warning or completeion of a task.</p>
+            <h3 class="section-sub-header">Baseline Toast</h3>
+            <p>This toast appears at the bottom of the screen in the center.</p>
+            <div class="element-display">
+                <span class="toast baseline">
+                    <p>Can't send email. Retry in sometime.</p>
+                    <span class="toastlinks">
+                        <a class="toast-action" href="#">Retry</a>
+                        <a class="toast-action" href="">
+                            <ion-icon name="close-circle-outline"></ion-icon>
+                        </a>
+                    </span>
+                </span>
+            </div>  
+
+            <p>To use the above toast component, Simply copy and paste the below snippet</p>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C254%2C1%29&t=night-owl&wt=none&l=auto&width=751&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14.5px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522element-display%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522toast-baseline%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ECan%27t%2520send%2520email.%2520Retry%2520in%2520sometime.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522toastlinks%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522toast-action%2522%2520href%253D%2522%2523%2522%253ERetry%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522toast-action%2522%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520name%253D%2522close-circle-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%2520%2520"
+                style="width: 100%; height: 301px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+
+            <h3 class="section-sub-header margin-top">Stacked Toast</h3>
+            <p>This toast also appears at the bottom of the screen in the center but has a stacked content.</p>
+            <div class="element-display">
+                <span class="toast stacked">
+                    <p class="margin-top">Some items are already present in the cart. You can replace those</p>
+                    <span class="toastlinks">
+                        <a class="toast-action" href="#">Replace</a>
+                        <a class="toast-action" href="">
+                            <ion-icon name="close-circle-outline"></ion-icon>
+                        </a>
+                    </span>
+                </span>
+            </div>  
+
+            <p>To use the above toast component, Simply copy and paste the below snippet</p>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C254%2C1%29&t=night-owl&wt=none&l=auto&width=1030&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14.5px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522element-display%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522toast%2520stacked%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522margin-top%2522%253ESome%2520items%2520are%2520already%2520present%2520in%2520the%2520cart.%2520You%2520can%2520replace%2520those%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522toastlinks%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522toast-action%2522%2520href%253D%2522%2523%2522%253EReplace%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522toast-action%2522%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520name%253D%2522close-circle-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%2520%2520"
+                style="width: 100%; height: 301px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <div class="next-links">
+                <a class="next-link-item" href="../Text_Utilities/text_utility.html" target="_blank">
+                    <span class="margin-lr"><ion-icon name="arrow-undo-sharp"></ion-icon></span>Text Utilities
+                </a>
+                <a class="next-link-item" href="../../index.html" target="_blank">Home
+                    <span class="margin-lr" ><ion-icon name="arrow-redo-sharp"></ion-icon></span> </a>
+            </div>
+
+        </div>
+
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
