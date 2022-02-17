@@ -1,0 +1,44 @@
+
+
+body {
+    color: var(--primary-color);
+}
+.homepage-container {
+    width:100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homepage-container p {
+    font-size: 2rem;
+    margin: 0;
+    color: var(--secondary-color);
+}
+.homepage-container h1 {
+    font-size: 6rem;
+    margin: 1rem 2rem;
+    
+}
+.homepage-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin: 2rem;
+}
+.btn {
+    padding: 0.3rem 1rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+    border: 0;
+}
+.btn-outline {
+    border: 2px solid var(--primary-color);
+    color: var(--secondary-color);
+}
