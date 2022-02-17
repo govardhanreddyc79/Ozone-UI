@@ -16,7 +16,7 @@
       display: flex;
       width: 28rem;
       flex-direction: column;
-      box-shadow: 1px 2px 5px 2px;
+      box-shadow: 1px 2px 5px 2px var(--secondary-color);
       height: fit-content;
       border-radius: 1rem;
     }
@@ -93,7 +93,7 @@
     .card-img-hz {
       width:12.5rem;
       height: 10rem;
-      border-radius:1rem 0rem 0rem 0rem
+      border-radius:1rem 0rem 0rem 0rem;
     }
     .card-content-hz {
       padding-bottom: 5rem;
