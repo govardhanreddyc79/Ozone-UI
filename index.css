@@ -23,7 +23,6 @@ body {
 }
 .homepage-btns {
     display: flex;
-    flex-direction: row;
     gap: 4rem;
     margin: 2rem;
 }
