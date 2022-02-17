@@ -2,8 +2,7 @@
 .element-display {
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     align-items: center;
     padding: 1rem;
     border: 1px solid;
