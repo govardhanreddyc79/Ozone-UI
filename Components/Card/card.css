@@ -1,0 +1,116 @@
+  .element-display {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 1rem;
+      border-radius: 10px;
+      gap:15px;
+      margin-top: 1rem;
+  }
+    
+  .card {
+      margin:1rem 1rem 2rem 1rem;
+      background-color: white;
+      display: flex;
+      width: 28rem;
+      flex-direction: column;
+      box-shadow: 1px 2px 5px 2px var(--secondary-color);
+      height: fit-content;
+      border-radius: 1rem;
+    }
+    
+    .card-img img{
+      width: 28rem;
+      border-radius: 1rem 1rem 0rem 0rem;
+    }
+    
+    .card-content {
+      padding: 1rem;
+      position: relative;
+    }
+    
+    .card-title {
+      font-size: 1.5rem;
+    }
+    .card-sub-title {
+      font-size: 1rem;
+      margin-top: 0;
+    }
+    .card-description {
+      margin-top: 1rem;
+      letter-spacing: normal;
+      margin-bottom: 0;
+    }
+    .card-btn-container {
+      display: flex;
+      flex-direction:row;
+      padding:1rem;
+    }
+    button {
+      background-color: white;
+      padding: 5px 10px;
+      border: 0;
+      font-weight: bold;
+    }
+    
+    .card-btn-primary {
+      color: var(--primary-btn-color);
+      padding: 1rem;
+      font-size: 1rem;
+    }
+    
+    .base-text-style {
+      font-weight: bold;
+      letter-spacing: normal;
+    }
+  
+    .title-over-media {
+      position: absolute;
+      margin-top: -5.5rem;
+      color: white;
+    
+    }
+    .sub-title-over-media {
+      margin-top: -3rem;
+      color: white;
+      position: absolute;
+    }
+  
+  .no-margin {
+      margin: 0;
+  }
+  
+  
+  .card-hz {
+      display: flex;
+      position: relative;
+      min-height: 15rem;
+      flex-direction: row;
+    }
+    
+    .card-img-hz {
+      width:12.5rem;
+      height: 10rem;
+      border-radius:1rem 0rem 0rem 0rem;
+    }
+    .card-content-hz {
+      padding-bottom: 5rem;
+      padding-top: 1rem;
+    }
+    .card-btn-container-hz {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    .hide-container {
+      display: none;
+    }
+    .image-badge {
+      width: 1.5rem;
+      height: 1.5rem;
+      position: absolute;
+    }
+  
