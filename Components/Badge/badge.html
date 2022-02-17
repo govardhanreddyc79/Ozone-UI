@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge</title>
+    <link rel="stylesheet" href="../../Docs/doc.css">
+    <link rel="stylesheet" href="badge.css">
+</head>
+<body>
+    <nav class='nav'>
+        <div >
+            <a class="nav-header" href="#">Ozone UI</a>
+        </div>
+        <div class="nav-links">
+            <a class='nav-item' href="https://twitter.com/reddygov16" target="_blank">
+                <img class="logo" src="../../Assets/SVG/twitter.png" alt="twitter">
+            </a>
+            <a class='nav-item' href="https://github.com/govardhanreddyc79" target="_blank">
+                <img class='logo' src="../../Assets/SVG/github.png" alt="github">
+            </a>
+        </div>
+    </nav>
+    <main class="main-section">
+        <aside class="sidebar flex-column">
+            <a class ='sidebar-header' href="#">Getting Started</a>
+            <a class ='sidebar-item hover-effect' href="../../Docs/doc.html">Installation Guide</a>
+    
+            <a class ='sidebar-header' href="#">Components</a>
+            <a class ='sidebar-item hover-effect' href="../Alert/alert.html">Alert</a>
+            <a class ='sidebar-item hover-effect' href="../Avtar/avtar.html">Avtar</a>
+            <a class ='sidebar-item link-active hover-effect' href="../Badge/badge.html">Badge</a>
+            <a class ='sidebar-item hover-effect' href="../Button/button.html">Button</a>
+            <a class ='sidebar-item hover-effect' href="../Card/card.html">Card</a>
+            <a class ='sidebar-item hover-effect' href="../Image/image.html">Image</a>
+            <a class ='sidebar-item hover-effect' href="../Input/input.html">Input</a>
+            <a class ='sidebar-item hover-effect' href="../Lists/list.html">Lists</a>
+            <a class ='sidebar-item hover-effect' href="../Text_Utilities/text_utility.html">Text Utilities</a>
+            <a class ='sidebar-item hover-effect' href="../Toast/toast.html">Toasts</a>
+    
+        </aside>
+
+        <div class="main-content">
+            <h1 class="section-header">Badge</h1>
+            <p>Badges can notify you that there are new or unread messages or notifications.
+                 They can be on Icons and avatars.</p>
+            <h3 class="section-sub-header">Badges on Icons</h3>
+            <div class="element-display">
+                <button class="badge">
+                    <ion-icon name="notifications"></ion-icon>
+                    <span class="badge-notify">6</span>
+                </button>
+                <button class="badge">
+                    <ion-icon name="bag-handle"></ion-icon>
+                    <span class="badge-notify">5</span>
+                </button>
+            </div>  
+            <p>To use the above badge components, just copy and paste the below code snippet:</p>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C254%2C1%29&t=night-owl&wt=none&l=auto&width=614.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14.5px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522element-display%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520name%253D%2522notifications%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-notify%2522%253E6%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2509%253Cion-icon%2520name%253D%2522bag-handle%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-notify%2522%253E5%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%2520%2520"
+                style="width: 100%; height: 294px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <h3 class="section-sub-header">Badge on Avtars</h3>
+            <p>Badges on the Avatars indicates the status of the user. The states are Available, 
+                Away, Busy, On Mobile and Presenting.</p>
+            <div class="element-display">
+                <div class="avtar-badge">
+                    <img class='avtar-rd' src="images/Avtar.jpg" alt="avtar">
+                    <ion-icon class='status available' name="ellipse"></ion-icon>
+                </div>
+                
+                <div class="avtar-badge">
+                    <img class='avtar-rd' src="images/Avtar.jpg" alt="avtar">
+                    <ion-icon class='status away' name="time"></ion-icon>
+                </div>
+                <div class="avtar-badge">
+                    <img class='avtar-rd' src="images/Avtar.jpg" alt="avtar">
+                    <ion-icon class='status busy' name="ellipse"></ion-icon>
+                </div>
+                <div class="avtar-badge">
+                    <img class='avtar-rd' src="images/Avtar.jpg" alt="avtar">
+                    <ion-icon class='status phone-potrait' name="phone-portrait"></ion-icon>
+                </div>
+                <div class="avtar-badge">
+                    <img class='avtar-rd' src="images/Avtar.jpg" alt="avtar">
+                    <ion-icon class='status present' name="remove-circle"></ion-icon>
+                </div>
+            </div> 
+            <p>To use the above badge components, just copy and paste the below code snippet:</p>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C254%2C1%29&t=night-owl&wt=none&l=auto&width=769.75&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14.5px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522element-display%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avtar-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%27avtar-rd%27%2520src%253D%2522images%252FAvtar.jpg%2522%2520alt%253D%2522avtar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%27status%2520available%27%2520name%253D%2522ellipse%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avtar-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%27avtar-rd%27%2520src%253D%2522images%252FAvtar.jpg%2522%2520alt%253D%2522avtar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%27status%2520away%27%2520name%253D%2522time%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avtar-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%27avtar-rd%27%2520src%253D%2522images%252FAvtar.jpg%2522%2520alt%253D%2522avtar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%27status%2520busy%27%2520name%253D%2522ellipse%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avtar-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%27avtar-rd%27%2520src%253D%2522images%252FAvtar.jpg%2522%2520alt%253D%2522avtar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%27status%2520phone-potrait%27%2520name%253D%2522phone-portrait%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avtar-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%27avtar-rd%27%2520src%253D%2522images%252FAvtar.jpg%2522%2520alt%253D%2522avtar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%27status%2520present%27%2520name%253D%2522remove-circle%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520"
+                style="width: 100%; height: 647px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <div class="next-links">
+                <a class="next-link-item" href="../Avtar/avtar.html" target="_blank">
+                    <span class="margin-lr"><ion-icon name="arrow-undo-sharp"></ion-icon></span>Avtar
+                </a>
+                <a class="next-link-item" href="../Button/button.html" target="_blank">Button
+                    <span class="margin-lr" ><ion-icon name="arrow-redo-sharp"></ion-icon></span> </a>
+            </div>
+        </div>
+
+
+    </main>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

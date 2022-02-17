@@ -1,0 +1,58 @@
+
+.element-display {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 10px;
+    gap:15px;
+    margin-top: 1rem;
+}
+.badge {
+    border: none;
+    font-size: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+    white-space: nowrap;
+    position: relative;
+    outline: none;
+}
+.badge-notify {
+    position: absolute;
+    top: -10%;
+    right:0.5rem;
+    color: var(--white-clr);
+    background-color: var(--primary-color);
+    font-size: small;
+    padding: 0.5rem;
+    border-radius: 50%;
+
+
+}
+.avtar-rd {
+    border-radius: 50%;
+    height: 6rem;
+}
+.avtar-badge {
+    position: relative;
+}
+
+.status {
+    position: absolute;
+    bottom: 2%;
+    right:2%;
+    font-size: x-large;
+    height: 1em;
+    width: 1em;
+}
+.available, .phone-potrait {
+    color: var(--success-clr);
+}
+.away {
+    color: var(--warning-clr);
+}
+.busy, .present {
+    color: var(--danger-clr);
+}
