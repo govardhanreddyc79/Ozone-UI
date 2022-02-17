@@ -1,0 +1,10 @@
+
+.responsive-image {
+    min-width: 100%;
+    height: auto;
+}
+.image-rd {
+    
+    border-radius: 50%;
+}
+
