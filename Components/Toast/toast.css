@@ -1,0 +1,42 @@
+
+.element-display {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 10px;
+    gap:15px;
+    margin-top: 1rem;
+}
+.toast {
+    padding: 0.3rem;
+    background-color: var(--secondary-color);
+    color: var(--white-clr);
+}
+
+.baseline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.toastlinks {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+.toast-action {
+    color: var(--danger-clr);
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.margin-top {
+    margin: 1rem 0rem 0rem 0rem;
+}
+
