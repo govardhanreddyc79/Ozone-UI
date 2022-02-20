@@ -1,0 +1,61 @@
+.element-display {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 10px;
+    gap:15px;
+    margin-top: 1rem;
+}
+.btn {
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    font-size: large;
+    cursor: pointer;
+}
+
+.solid-btn {
+    border: none;
+    color: var(--white-clr);
+    text-align: center;
+}
+.primary {
+    background-color: var(--success-clr);
+}
+.secondary {
+    background-color: var(--prime-blue);
+}
+.submit {
+    background-color: var(--primary-color);
+}
+
+
+.outline-btn-primary {
+    border: 1px solid var(--success-clr);
+    color: var(--success-clr);
+    
+}
+.outline-btn-secondary {
+    border: 1px solid var(--prime-blue);
+    color: var(--prime-blue);
+  
+}
+.outline-btn-submit {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+   
+}
+.icon {
+    font-size: 2rem;
+    padding-right: 4px;
+}
+.floating-btn {
+    padding: 0.8rem;
+    border-radius: 50%;
+    margin: 1rem;
+    border: none;
+    color: var(--white-clr);
+}
+
