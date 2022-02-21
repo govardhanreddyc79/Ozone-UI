@@ -14,17 +14,17 @@
     font-size: 1.5rem;  
 }
 
-.success {
+.input-success {
     border: 2px solid var(--success-clr);
     color: var(--success-clr);
     
 }
-.warning {
+.input-warning {
     border: 2px solid var(--warning-clr);
     color: var(--warning-clr);
   
 }
-.error {
+.input-error {
     border: 2px solid var(--danger-clr);
     color: var(--danger-clr);
    
