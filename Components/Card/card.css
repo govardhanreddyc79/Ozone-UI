@@ -108,9 +108,15 @@
     .hide-container {
       display: none;
     }
-    .image-badge {
-      width: 1.5rem;
-      height: 1.5rem;
+  
+    .img-position{
+      position: relative;
+    }
+    .close-icon {
+      font-size: 2rem;
       position: absolute;
+      top: 0;
+      right: 0;
+      color: var(--primary-color);
     }
   
