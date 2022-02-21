@@ -50,3 +50,11 @@
 .link-active {
     font-weight: bold;
 }
+
+@media only screen and (max-width: 800px)  {
+.sidebar {
+    display: none;
+}
+
+}
+
