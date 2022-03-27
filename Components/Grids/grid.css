@@ -1,0 +1,29 @@
+.grid-col-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    background-color: var(grey-clr);
+    min-width: 300px;
+}
+.grid-col-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+    background-color: var(grey-clr);
+    min-width: 300px;
+}
+.grid-col-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 70%;
+    background-color: var(grey-clr);
+    min-width: 300px;
+}
+.grid-col {
+    display: grid;
+    align-items: center;
+    border: 2px solid var(--secondary-color);
+    padding: 1rem;
+    background-color: var(--info-clr);
+      
+}
