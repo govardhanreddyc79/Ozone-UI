@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The List component of Ozone-UI">
+    <meta name="author" content="Govardhan Reddy">
+    <title>Ozone-UI | Navigation</title>
+    <link rel="stylesheet" href="../Button/button.css">
+    <link rel="stylesheet" href="../../Docs/doc.css">
+    <link rel="stylesheet" href="navigation.css">
+    
+</head>
+<body>
+    <nav class='nav'>
+        <div >
+            <a class="nav-header" href="#">Ozone UI</a>
+        </div>
+        <div class="nav-links">
+            <a class='nav-item' href="https://twitter.com/reddygov16" target="_blank">
+                <img class="logo" src="../../Assets/SVG/twitter.png" alt="twitter">
+            </a>
+            <a class='nav-item' href="https://github.com/govardhanreddyc79" target="_blank">
+                <img class='logo' src="../../Assets/SVG/github.png" alt="github">
+            </a>
+        </div>
+    </nav>
+    <main class="main-section">
+        <aside class="sidebar flex-column">
+            <a class ='sidebar-header' href="#">Getting Started</a>
+            <a class ='sidebar-item hover-effect' href="../../Docs/doc.html">Installation Guide</a>
+    
+            <a class ='sidebar-header' href="#">Components</a>
+            <a class ='sidebar-item hover-effect' href="../Alert/alert.html">Alert</a>
+            <a class ='sidebar-item hover-effect' href="../Avtar/avtar.html">Avtar</a>
+            <a class ='sidebar-item hover-effect' href="../Badge/badge.html">Badge</a>
+            <a class ='sidebar-item hover-effect' href="../Button/button.html">Button</a>
+            <a class ='sidebar-item hover-effect' href="../Card/card.html">Card</a>
+            <a class ='sidebar-item hover-effect' href="../Image/image.html">Image</a>
+            <a class ='sidebar-item hover-effect' href="../Input/input.html">Input</a>
+            <a class ='sidebar-item hover-effect' href="../Lists/list.html">Lists</a>
+            <a class ='sidebar-item link-active hover-effect' href="../Navigation/navigation.html">Navigation</a>
+            <a class ='sidebar-item hover-effect' href="../Text_Utilities/text_utility.html">Text Utilities</a>
+            <a class ='sidebar-item hover-effect' href="../Toast/toast.html">Toasts</a>
+    
+        </aside>
+
+        <div class="main-content">
+            <h1 class="section-header">Navigation</h1>
+            <p>Navigation is basically a place from where user can navigate to anywhere on the site/app</p>
+            
+            <nav class='nav nav-component'>
+                    <div >
+                        <a class="nav-header" href="#">Ozone UI</a>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="🔎 Find here" class="search">
+                    </div>
+                    <div class="nav-links margin-left">
+                       <a href="#">
+                        <button class="btn solid-btn submit">Login</button>  
+                    </a>
+                        <a class="nav-item" href="#">
+                            <i class="nav-icon fa-solid fa-cart-shopping"></i>
+                        </a>
+                        <a class="nav-item" href="./Wishlist/wishlist.html">
+                            <i class="nav-icon fa-solid fa-heart"></i>
+                        </a>
+                    </div>
+            </nav>
+            
+            <p>To use the above Nav component, just copy and paste the below code snippet:</p>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=951.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cnav%2520class%253D%27nav%2520nav-component%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-header%2522%2520href%253D%2522%2523%2522%253EOzone%2520UI%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522%25F0%259F%2594%258E%2520Find%2520here%2522%2520class%253D%2522search%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-links%2520margin-left%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520solid-btn%2520submit%2522%253ELogin%253C%252Fbutton%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-item%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522nav-icon%2520fa-solid%2520fa-cart-shopping%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-item%2522%2520href%253D%2522.%252FWishlist%252Fwishlist.html%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522nav-icon%2520fa-solid%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+                style="width: 100%; height: 524px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            
+
+            <div class="next-links">
+                <a class="next-link-item" href="../Lists/list.html" target="_blank">
+                    <span class="margin-lr"><ion-icon name="arrow-undo-sharp"></ion-icon></span>Lists
+                </a>
+                <a class="next-link-item" href="../Text_Utilities/text_utility.html" target="_blank">Text Utilities
+                    <span class="margin-lr" ><ion-icon name="arrow-redo-sharp"></ion-icon></span> </a>
+            </div>
+        </div>
+
+    </main>
+    <script src="https://kit.fontawesome.com/bbba0f11e7.js " crossorigin="anonymous "></script>
+      
+</body>
+
+</html>
