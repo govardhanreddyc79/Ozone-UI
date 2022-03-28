@@ -1,0 +1,29 @@
+.modal{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 5px 2px;
+    margin-top: 1rem;
+}
+.modal-btn-div{
+    margin-left: auto;
+    margin-top: 0.5rem;
+}
+.margin-auto{
+    margin-left: auto;
+}
+.modal-title{
+    margin: 0rem;
+    font-weight: bold;
+}
+.modal-btn{
+    /* background-color: var(--info-clr); */
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size:medium;
+    border: none;
+}
+.modal-content{
+    font-size: 1.2rem;
+}
