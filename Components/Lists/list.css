@@ -4,7 +4,7 @@
     align-items: center;
     padding: 1rem;
     border-radius: 10px;
-    gap:15px;
+    gap:2rem;
     margin-top: 1rem;
     width:100%
 }
@@ -14,13 +14,19 @@ li {
 .list {
     padding: 1rem;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-    min-width: 200px;
+    min-width: 20rem;
     
 }
 .list-item {
     font-size: large;
+    text-align: center;
+    padding: 1rem;
 }
 .heading {
     font-weight: bold;
     font-size: larger;
+    margin-bottom: 1rem;
+}
+.stacked {
+    border: 1px solid var(--info-clr);
 }
