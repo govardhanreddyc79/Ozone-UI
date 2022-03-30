@@ -1,10 +1,13 @@
 
 .responsive-image {
-    min-width: 100%;
+    width: 100%;
     height: auto;
 }
 .image-rd {
-    
     border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+.image-width {
+    width: 30%;
 }
 
