@@ -45,3 +45,14 @@
 .grey-text {
     color: var(--grey-clr);
 }
+.center-text{
+    align-items: center;
+    text-align: center;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+}
+
+.center-text-content{
+    font-size: large;
+    margin: 1rem;
+}
