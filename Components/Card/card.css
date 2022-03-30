@@ -12,7 +12,7 @@
     
   .card {
       margin:1rem 1rem 2rem 1rem;
-      background-color: white;
+      background-color: var(--white-clr);
       display: flex;
       width: 28rem;
       flex-direction: column;
@@ -49,7 +49,7 @@
       padding:1rem;
     }
     button {
-      background-color: white;
+      background-color: var(--white-clr);
       padding: 5px 10px;
       border: 0;
       font-weight: bold;
@@ -69,12 +69,12 @@
     .title-over-media {
       position: absolute;
       margin-top: -5.5rem;
-      color: white;
+      color: var(--white-clr);
     
     }
     .sub-title-over-media {
       margin-top: -3rem;
-      color: white;
+      color: var(--white-clr);
       position: absolute;
     }
   
@@ -118,5 +118,15 @@
       top: 0;
       right: 0;
       color: var(--primary-color);
+    }
+    .badge-icon {
+      font-size: 1rem;
+      padding: 0.5rem;
+      position: absolute;
+      top: 1rem;
+      left: 0;
+      color: var(--white-clr);
+      background-color: var(--primary-color);
+      border-radius: 0 0.5rem 0.5rem 0;
     }
   
