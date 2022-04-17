@@ -1,0 +1,16 @@
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+}
+.radio-input{
+    display: none;
+}
+.rating-label{
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--info-clr);
+}
+input[type="radio"]:checked ~ label {
+    color: var(--secondary-clr);
+  }
