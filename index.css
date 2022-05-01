@@ -1,8 +1,5 @@
+@import url('./Docs/doc.css');
 
-
-body {
-    color: var(--primary-color);
-}
 .homepage-container {
     width:100vw;
     height: 80vh;
@@ -26,19 +23,19 @@ body {
     gap: 4rem;
     margin: 2rem;
 }
-.btn {
+.btn-hp {
     padding: 0.3rem 1rem;
     border-radius: 2rem;
     font-size: 1rem;
     cursor: pointer;
     text-decoration: none;
 }
-.btn-primary {
+.btn-primary-hp {
     background-color: var(--primary-color);
     color: white;
     border: 0;
 }
-.btn-outline {
+.btn-outline-hp {
     border: 2px solid var(--primary-color);
     color: var(--secondary-color);
 }
