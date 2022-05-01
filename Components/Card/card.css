@@ -1,4 +1,4 @@
-  .element-display {
+  .element-display-card {
       display: flex;
       justify-content: center;
       flex-direction: row;
@@ -48,7 +48,7 @@
       flex-direction:row;
       padding:1rem;
     }
-    button {
+    .button-card {
       background-color: var(--white-clr);
       padding: 5px 10px;
       border: 0;
@@ -78,7 +78,7 @@
       position: absolute;
     }
   
-  .no-margin {
+  .no-margin-card {
       margin: 0;
   }
   

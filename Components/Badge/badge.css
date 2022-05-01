@@ -1,5 +1,5 @@
 
-.element-display {
+.element-display-badge {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -31,7 +31,7 @@
 
 
 }
-.avtar-rd {
+.avtar-badge-rd {
     border-radius: 50%;
     height: 6rem;
 }

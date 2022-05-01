@@ -1,5 +1,5 @@
 
-.element-display {
+.element-display-toast {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -35,7 +35,7 @@
     text-decoration: none;
 }
 
-.margin-top {
+.margin-top-toast {
     margin: 1rem 0rem 0rem 0rem;
 }
 

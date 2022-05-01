@@ -1,4 +1,4 @@
-.element-display {
+.element-display-btn {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -21,13 +21,13 @@
     color: var(--white-clr);
     text-align: center;
 }
-.primary {
+.primary-btn {
     background-color: var(--success-clr);
 }
-.secondary {
+.secondary-btn {
     background-color: var(--prime-blue);
 }
-.submit {
+.submit-btn {
     background-color: var(--primary-color);
 }
 
